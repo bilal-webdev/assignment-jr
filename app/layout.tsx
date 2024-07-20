@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "./globals.css";
 
 import NavBar from "@/components/NavBar/NavBar";
+import Footer from "@/components/Footer/Footer";
 
 const poller_one = Poller_One({
   weight: ['400'],
@@ -35,6 +36,7 @@ export default function RootLayout({
       <body>
         <NavBar />
         {children}
+        <Footer />
       </body>
     </html>
   );
