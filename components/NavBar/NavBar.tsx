@@ -17,7 +17,7 @@ function classNames(...classes: string[]) {
 export default function NavBar() {
     return (
         <Disclosure as="nav" className="absolute top-4 left-0 w-full z-50" style={{ backgroundColor: 'rgba(0, 0, 0, 0.7)' }}>
-            <div className="mx-auto sm:px-6 md:px-11 lg:px-28">
+            <div className="max-w-screen-2xl mx-auto sm:px-6 md:px-11 lg:px-16">
                 <div className="relative flex h-16 items-center justify-between">
                     <div className="absolute inset-y-0 left-0 flex items-center md:hidden">
                         {/* Mobile menu button*/}

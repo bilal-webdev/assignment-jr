@@ -11,9 +11,11 @@ const config: Config = {
       fontFamily: {
         poller: ['Poller One', 'serif'],
         alef: ['Alef', 'serif'],
+        material: ['Material Symbols Outlined', 'sans-serif'],
       },
     },
   },
-  plugins: [],
+  plugins: [
+  ],
 };
 export default config;

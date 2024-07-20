@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Alef, Poller_One } from "next/font/google";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./globals.css";
+
 import NavBar from "@/components/NavBar/NavBar";
 
 const poller_one = Poller_One({
